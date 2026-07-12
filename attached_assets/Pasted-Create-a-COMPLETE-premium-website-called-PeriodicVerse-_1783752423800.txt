@@ -1,0 +1,495 @@
+Create a COMPLETE premium website called "PeriodicVerse – 3D Interactive Periodic Table".
+
+This is a FINAL exhibition-level project for CBSE Class 9 Science.
+
+The website should feel like Apple's WWDC website mixed with modern educational websites like Brilliant.org, Apple, and National Geographic.
+
+DO NOT create a basic periodic table.
+
+Create a premium, animated, futuristic educational experience.
+
+--------------------------------------------------
+GENERAL REQUIREMENTS
+--------------------------------------------------
+
+• Everything must work by simply opening index.html.
+• No backend.
+• No React.
+• No frameworks.
+• Use only HTML, CSS and Vanilla JavaScript.
+• Keep everything inside:
+  - index.html
+  - style.css
+  - script.js
+• Responsive for:
+  - Desktop
+  - Laptop
+  - Tablet
+  - Android
+  - iPhone
+• Smooth 60 FPS animations.
+• Modern Glassmorphism UI.
+• Apple-inspired typography and spacing.
+• Beautiful gradients.
+• Soft shadows.
+• Rounded corners.
+• Cursor animations.
+• Hover animations.
+• Scroll animations.
+• Floating particle background.
+• Premium loading animation.
+• Everything should feel alive.
+
+--------------------------------------------------
+HOME PAGE
+--------------------------------------------------
+
+Large hero section.
+
+Title:
+
+"PeriodicVerse"
+
+Subtitle:
+
+"Discover the Building Blocks of the Universe"
+
+Animated 3D Atom
+
+Orbiting electrons
+
+Floating particles
+
+Animated glowing background
+
+Apple style buttons:
+
+Explore Elements
+
+Learn Chemistry
+
+Smooth scrolling.
+
+Animated statistics cards:
+
+118 Elements
+
+7 Periods
+
+18 Groups
+
+Hundreds of Uses
+
+--------------------------------------------------
+FEATURE SECTION
+--------------------------------------------------
+
+Beautiful animated cards.
+
+Features:
+
+Interactive Periodic Table
+
+3D Element Cards
+
+Search
+
+Compare Elements
+
+Favourite Elements
+
+Element of the Day
+
+Chemistry Facts
+
+NCERT Friendly
+
+Each card should animate while hovering.
+
+--------------------------------------------------
+PERIODIC TABLE
+--------------------------------------------------
+
+This must be the highlight.
+
+Use the REAL periodic table layout.
+
+Do NOT simply place elements one after another.
+
+Correctly position:
+
+Hydrogen
+
+Helium
+
+Lanthanides
+
+Actinides
+
+Every element must have its correct location.
+
+Each category must have different colors.
+
+Categories:
+
+Alkali Metals
+
+Alkaline Earth Metals
+
+Transition Metals
+
+Post-transition Metals
+
+Metalloids
+
+Non-metals
+
+Halogens
+
+Noble Gases
+
+Lanthanides
+
+Actinides
+
+Unknown
+
+Cards should have:
+
+Atomic Number
+
+Symbol
+
+Name
+
+Hover animation
+
+Glow animation
+
+Shine effect
+
+3D lift effect
+
+Mouse interaction
+
+--------------------------------------------------
+SEARCH
+--------------------------------------------------
+
+Premium search bar.
+
+Search by:
+
+Name
+
+Symbol
+
+Atomic Number
+
+Instant filtering.
+
+--------------------------------------------------
+FILTERS
+--------------------------------------------------
+
+Animated buttons.
+
+Filters:
+
+All
+
+Alkali Metals
+
+Alkaline Earth Metals
+
+Transition Metals
+
+Post-transition Metals
+
+Metalloids
+
+Non-metals
+
+Halogens
+
+Noble Gases
+
+Lanthanides
+
+Actinides
+
+Unknown
+
+Buttons should animate.
+
+--------------------------------------------------
+ELEMENT POPUP
+--------------------------------------------------
+
+When clicking any element open a premium popup.
+
+Glassmorphism popup.
+
+Large element symbol.
+
+Display:
+
+Atomic Number
+
+Atomic Mass
+
+Atomic Radius
+
+Electron Configuration
+
+Group
+
+Period
+
+Block
+
+State
+
+Melting Point
+
+Boiling Point
+
+Density
+
+Electronegativity
+
+Oxidation States
+
+Discoverer
+
+Year of Discovery
+
+Description
+
+5 Uses
+
+5 Interesting Facts
+
+Occurrence
+
+Applications
+
+Industrial Uses
+
+Biological Importance
+
+NCERT Relevance
+
+Related Elements
+
+Beautiful close animation.
+
+Background blur.
+
+--------------------------------------------------
+COMPARE MODE
+--------------------------------------------------
+
+Allow selecting two elements.
+
+Compare:
+
+Atomic Number
+
+Atomic Mass
+
+Density
+
+Melting Point
+
+Boiling Point
+
+State
+
+Category
+
+Electron Configuration
+
+Uses
+
+Properties
+
+--------------------------------------------------
+FAVOURITES
+--------------------------------------------------
+
+Heart icon.
+
+Allow saving favourite elements.
+
+Store locally using LocalStorage.
+
+--------------------------------------------------
+ELEMENT OF THE DAY
+--------------------------------------------------
+
+Display one random element every day.
+
+Automatically changes daily.
+
+--------------------------------------------------
+TIMELINE
+--------------------------------------------------
+
+Interactive timeline.
+
+Major discoveries:
+
+Ancient Elements
+
+Mendeleev
+
+Periodic Law
+
+Noble Gases
+
+Artificial Elements
+
+Modern Discoveries
+
+--------------------------------------------------
+QUIZ
+--------------------------------------------------
+
+Mini chemistry quiz.
+
+Random MCQs.
+
+Instant score.
+
+Correct answer explanation.
+
+--------------------------------------------------
+CHEMISTRY FACTS
+--------------------------------------------------
+
+Animated carousel.
+
+Display interesting chemistry facts.
+
+--------------------------------------------------
+FAQ
+--------------------------------------------------
+
+Animated accordion.
+
+--------------------------------------------------
+TEAM SECTION
+--------------------------------------------------
+
+Place this LAST.
+
+DO NOT change names.
+
+Team Members:
+
+Krishnav Bajoria
+
+(Keep exactly as already provided.)
+
+Honourable Guide:
+
+Mrs. Durga Ma'am
+
+Use elegant cards.
+
+--------------------------------------------------
+FOOTER
+--------------------------------------------------
+
+Apple-style footer.
+
+Project Information
+
+CBSE Class 9 Science Project
+
+Made with HTML CSS JavaScript
+
+--------------------------------------------------
+ANIMATIONS
+--------------------------------------------------
+
+Cursor Glow
+
+Mouse Trail
+
+Floating Particles
+
+Scroll Reveal
+
+Fade
+
+Slide
+
+Scale
+
+Parallax
+
+Glass Reflections
+
+Button Ripple
+
+Hover Glow
+
+Smooth Popup
+
+Page Loader
+
+Floating Atom
+
+Orbiting Electrons
+
+Background Gradient Animation
+
+--------------------------------------------------
+DESIGN
+--------------------------------------------------
+
+White
+
+Blue
+
+Purple
+
+Cyan
+
+Glassmorphism
+
+Very colourful but premium.
+
+NOT dark.
+
+NOT too blue.
+
+Balanced colors.
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+Generate COMPLETE production-ready code.
+
+Do NOT leave placeholders.
+
+Do NOT use lorem ipsum.
+
+Populate all 118 elements with accurate scientific data.
+
+Ensure every feature works.
+
+Write clean, optimized code.
+
+No broken JavaScript.
+
+No missing IDs.
+
+No duplicate functions.
+
+No syntax errors.
+
+Make this feel like a website that could win a national science exhibition.

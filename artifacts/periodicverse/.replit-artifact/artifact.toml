@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "PeriodicVerse"
+version = "1.0.0"
+id = "artifacts/periodicverse"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20405
+
+[services.development]
+run = "pnpm --filter @workspace/periodicverse run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/periodicverse", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/periodicverse/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20405"
+BASE_PATH = "/"

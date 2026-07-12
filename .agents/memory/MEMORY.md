@@ -1,0 +1,2 @@
+- [Vanilla JS in react-vite artifact](vanilla-js-in-react-vite-artifact.md) — how to satisfy a "no framework" spec when only the react-vite artifact type exists.
+- [JS data file + tsc](js-data-file-typecheck.md) — importing a hand-authored .js dataset into a TS artifact needs a sibling .d.ts or tsc errors on every import.
