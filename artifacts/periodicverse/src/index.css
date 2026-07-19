@@ -22,8 +22,8 @@
   --cat-nonmetal: #fff4b2;
   --cat-halogen: #e2b2ff;
   --cat-noble: #c4b2ff;
-  --cat-lanthanide: #ffb2f4;
-  --cat-actinide: #ffb2d4;
+   --cat-lanthanide: #B8F5C8;
+--cat-actinide: #7FEFE7;
   --cat-unknown: #e2e8f0;
 }
 
@@ -186,24 +186,48 @@ section {
 }
 
 /* Periodic Table Grid */
-.pt-wrapper {
+ .pt-wrapper {
   overflow-x: auto;
-  padding-bottom: 2rem;
+  overflow-y: visible;
+  padding-bottom: 3rem;
   margin-top: 2rem;
 }
+
 .pt-grid {
   display: grid;
-  grid-template-columns: repeat(18, 1fr);
-  gap: 4px;
-  min-width: 1000px; /* Force minimum width to prevent squishing */
-}
-.pt-lanthanides, .pt-actinides {
-  display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(18, minmax(52px, 1fr));
   gap: 4px;
   min-width: 1000px;
-  margin-top: 8px;
-  padding-left: calc((100% / 18) * 2); /* offset to align with group 3 */
+}
+
+.pt-lanthanides,
+.pt-actinides {
+  display: grid;
+  grid-template-columns: repeat(15, minmax(52px, 1fr));
+  gap: 4px;
+  min-width: 1000px;
+  margin-top: 14px;
+  padding-left: 112px;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+
+  .pt-wrapper {
+    padding-bottom: 4rem;
+  }
+
+  .pt-grid {
+    min-width: 1100px;
+  }
+
+  .pt-lanthanides,
+  .pt-actinides {
+    min-width: 1100px;
+    margin-top: 18px;
+    padding-left: 122px;
+  }
+
 }
 
 /* Element Tile */
